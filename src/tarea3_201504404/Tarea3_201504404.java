@@ -32,7 +32,11 @@ public class Tarea3_201504404 {
            usu.usuario();
            System.out.println("");
        break;         
+      
        
-    }
+       case 2:
+    
+       
+       }
     }
 }
