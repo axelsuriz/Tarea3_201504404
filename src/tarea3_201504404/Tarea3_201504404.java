@@ -23,9 +23,7 @@ public class Tarea3_201504404 {
         System.out.println("Seleccione una opción");
         menu=entrada.nextInt();
         
-        Usuarios usu=new Usuarios();
-        
-   
+    
        
        }
     }
