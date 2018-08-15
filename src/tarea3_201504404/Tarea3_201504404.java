@@ -23,20 +23,6 @@ public class Tarea3_201504404 {
         System.out.println("Seleccione una opción:");
         menu=entrada.nextInt();
         
-        Usuarios usu=new Usuarios();
-        
-       switch(menu){
-       
-        //llamar a la clase Usuarios   
-       case 1: 
-           usu.usuario();
-           System.out.println("");
-       break;         
-      
-       
-       case 2:
-            
-           System.out.print("");
     
        
        }
