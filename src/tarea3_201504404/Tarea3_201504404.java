@@ -20,7 +20,7 @@ public class Tarea3_201504404 {
         System.out.println("3.- Tres Numeros de mayor a menor");
         System.out.println("4.- Calcular Promedio");
         System.out.println("5.- Salir");
-        System.out.println("Seleccione una opción");
+        System.out.println("Seleccione una opción:");
         menu=entrada.nextInt();
         
         Usuarios usu=new Usuarios();
