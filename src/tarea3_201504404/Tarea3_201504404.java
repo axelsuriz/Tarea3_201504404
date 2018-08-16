@@ -36,7 +36,7 @@ public class Tarea3_201504404 {
        case 1: 
           
            usu.usuario();
-           System.out.println("");
+           System.out.println(" ");
        break;         
       
        
