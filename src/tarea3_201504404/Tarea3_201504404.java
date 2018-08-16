@@ -50,7 +50,7 @@ public class Tarea3_201504404 {
        }
            //excepcion de solo ingresar numero y no letra 
         } catch (Exception e) {
-            System.out.println("SOLO SE DEBE INGRESAR UN VALO NUMERICO");
+            System.out.println("SOLO SE DEBE INGRESAR UN VALO NUMERICO!");
               entrada.next();
              System.out.print("");
       
