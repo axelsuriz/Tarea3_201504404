@@ -7,13 +7,13 @@ import java.util.Scanner;
  *
  * @author Axel
  */
-public class Tarea3_201504404 {
+
+public class Tarea3_201504404  {
 
     public static Scanner entrada= new Scanner(System.in);
     public static void main(String[] args) {
        
         boolean salir=false;
-        boolean mostrar=false;
         
         do {            
         try {
@@ -29,7 +29,7 @@ public class Tarea3_201504404 {
         menu=entrada.nextInt();
         
         Usuarios usu=new Usuarios();
-        
+        Contador cont=new Contador();
        switch(menu){
        
         //llamar a la clase Usuarios   
@@ -37,11 +37,12 @@ public class Tarea3_201504404 {
           
            usu.usuario();
            System.out.println(" ");
-       break;         
-      
        
+        break;         
+       case 2:
+           cont.contador();
        case 5:
-            salir=true;
+           salir=true;
            System.out.println("");
            break;
          //excepcion solo valores de 1 y 5
@@ -52,14 +53,14 @@ public class Tarea3_201504404 {
         } catch (Exception e) {
             System.out.println("SOLO SE DEBE INGRESAR UN VALO NUMERICO");
               entrada.next();
-             System.out.print("");
-      
-             
+                 
   }
        
         } 
     while(!salir);
   }
+
+    
 
 }   
 
