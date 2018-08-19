@@ -12,7 +12,8 @@ public class Numeros {
   public static int menu; 
   
   public static  void contador (){
-    
+       
+      
        boolean menupr=false;
        boolean most=false;
         
@@ -48,14 +49,14 @@ public class Numeros {
          
          case 3:
             menupr=true;
-            usu.main(number);
+            usu.main (null);
             break;
             
          default:
                System.out.println("TIENES QUE INGRESAR UN NUMERO ENTRE 1 y 4");
                System.out.println("");
           } 
-        }catch (Exception e) {
+        }catch (Exception ex) {
             System.out.println("SOLO SE DEBE INGRESAR UN VALOR NUMERICO");
              entrada.next();
         
@@ -63,14 +64,20 @@ public class Numeros {
 }while (!menupr);          
           
   }
-    public static  String number[]=new String[1];
-    public static String numbr;
+    public static  int number[]=new int[1];
+    public static int numbr;
 
      public static void numero (){
+       
+         
        for ( int i = 0; i <number.length; i++) {
        System.out.println("Ingrese el Número Entero: ");
-        numbr=entrada.next();
-        number[i]=numbr;
-}
+        numbr=entrada.nextInt();
+       
+        
+   
+  
+        
+       }
      }
 }
